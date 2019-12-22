@@ -1,0 +1,7 @@
+flask==1.1.1
+Flask-BasicAuth==0.2.0
+gunicorn==20.0.4
+gevent==1.4.0
+imutils==0.5.3
+picamera==1.13
+opencv-python==3.4.6.27
