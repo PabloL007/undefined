@@ -4,12 +4,12 @@ angular.module('app', [
     'ngMessages',
     'ngSanitize',
     'ui.router',
-    'live'
+    'live',
+    'settings'
 ])
 .config(function($mdThemingProvider) {
   $mdThemingProvider.theme('default')
     .primaryPalette('indigo')
-    .accentPalette('blue-grey');
-  $mdThemingProvider.theme('dark')
+    .accentPalette('blue-grey')
     .dark();
 });

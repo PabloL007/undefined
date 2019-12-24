@@ -15,6 +15,16 @@ angular.module('app').config(function ($stateProvider, $urlRouterProvider) {
               }
           }
         })
+        .state('app.settings', {
+          url: '/settings',
+          views:{
+              'body@': {
+                controller: 'SettingsCtrl',
+                controllerAs: 'ctrl',
+                templateUrl: 'static/app/settings/settings.tmpl.html'
+              }
+          }
+        })
     ;
 
     $urlRouterProvider.otherwise('/');

@@ -10,6 +10,10 @@
         <link rel="stylesheet" href="static/style/main.css">
     </head>
     <body>
+        <md-nav-bar nav-bar-aria-label="navigation links" md-selected-nav-item="'live'">
+            <md-nav-item md-nav-sref="app.live" name="live">Live</md-nav-item>
+            <md-nav-item md-nav-sref="app.settings" name="settings">Settings</md-nav-item>
+        </md-nav-bar>
         <div class="container-fluid">
             <div class="row">
                 <div ui-view="body"></div>
@@ -32,5 +36,8 @@
         <script src="static/app/live/live.module.js"></script>
         <script src="static/app/live/live.controller.js"></script>
         <script src="static/app/live/live.service.js"></script>
+        <script src="static/app/settings/settings.module.js"></script>
+        <script src="static/app/settings/settings.controller.js"></script>
+        <script src="static/app/settings/settings.service.js"></script>
     </body>
 </html>
