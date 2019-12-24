@@ -4,8 +4,7 @@ angular.module('app', [
     'ngMessages',
     'ngSanitize',
     'ui.router',
-    'ngMaterialDatePicker',
-    'search'
+    'live'
 ])
 .config(function($mdThemingProvider) {
   $mdThemingProvider.theme('default')

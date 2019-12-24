@@ -5,13 +5,13 @@ angular.module('app').config(function ($stateProvider, $urlRouterProvider) {
             url: '',
             abstract: true
         })
-        .state('app.search', {
+        .state('app.live', {
           url: '/',
           views:{
               'body@': {
-                controller: 'SearchCtrl',
+                controller: 'LiveCtrl',
                 controllerAs: 'ctrl',
-                templateUrl: 'static/app/search/search.tmpl.html'
+                templateUrl: 'static/app/live/live.tmpl.html'
               }
           }
         })
